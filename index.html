@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="data-mode" content="static">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Macro Signals</title>
+  <meta name="description" content="Cross-asset trend and risk monitor with a frozen, publicly tracked allocation model.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f55d4'/%3E%3Cpath d='M7 21l6-6 4 4 8-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="static/styles.css?v=d1139e5c2f">
+  <script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js" defer></script>
+  <script src="static/app.js?v=c6eccfca9b" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark"><svg viewBox="0 0 16 16" fill="none"><path d="M2 11l4-4 3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        Macro Signals
+      </a>
+      <nav id="nav">
+        <a href="#/" data-route="overview">Overview</a>
+        <a href="#/recommendations" data-route="recommendations">Recommendations</a>
+        <a href="#/track-record" data-route="track-record">Track record</a>
+        <a href="#/macro" data-route="macro">Macro context</a>
+        <a href="#/method" data-route="method">Method</a>
+      </nav>
+      <span class="asof" id="asof"></span>
+    </div>
+  </header>
+  <main id="app"><div class="loading">Loading…</div></main>
+  <footer>Research prototype. Not investment advice. Past and simulated performance does not predict future results. Prices: Yahoo Finance (unofficial); macro: FRED/ALFRED, ECB.</footer>
+</body>
+</html>
